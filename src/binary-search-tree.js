@@ -13,7 +13,7 @@ module.exports = class BinarySearchTree {
     }
     
     root() {
-        return this.node ?? null
+        return this.node
     }
     
     add(data) {
